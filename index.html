@@ -8,39 +8,81 @@
       body{
         padding: 0;
         margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: aquamarine;
+        display: grid;
+        grid-template-rows: 2fr 9fr;
+        height: 100vh;
+        background-color: #333333;
+        color: wheat;
       }
-      ul{
-        border: 2px solid black;
-        padding: 2% 1%;
-
+      div{
+        text-align: center;
       }
-      li{
-        display: inline;
+      h3{
+       font-size: 1.5rem;
+      }
+      .header{
+        padding-top: 5%;
       }
       a{
         text-decoration: none;
+        color: wheat;
+      }
+      .projects h1{
+        font-size: 2rem;
+      }
+      .projects p{
+        display: inline-block;
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        background-color: red;
+      }
+      .space{
+        margin-right: 100%;
       }
     </style>
 </head>
 <body>
-  <div>
+  <div class="header">
     <h1>My name is Ude Maduabuchi Onyedikachi</h1>
     <h3>ALT SCHOOL ID: ALT/SOE/024/2798</h3>
-    <p>Below are the links to my Assignments.</p>
-      <ul>
-        <li><a href="https://magenta-khapse-0219b1.netlify.app/" target="_blank">Assignment 1</a></li>
-        <li><a href="https://thunderous-panda-a2caa4.netlify.app/" target="_blank"> Assignment 2 </a></li>
-        <li><a href="https://curious-duckanoo-0d11b6.netlify.app/" target="_blank"> Assignment 3</a></li>
-        <li><a href="https://jocular-toffee-e8653c.netlify.app/"target="_blank">Assignment 4</a></li>
-        <li><a href="https://stellular-tiramisu-7f5f2a.netlify.app/" target="_blank">Assignment 5</a></li>
-        <li><a href="https://visionary-jalebi-6d5cb6.netlify.app/" target="_blank">Assignment 6</a></li>
-        <li><a href="https://sparkly-cajeta-24613d.netlify.app/" target="_blank">Assignment 7</a></li>
-        <li><a href="https://lucky-monstera-c57f47.netlify.app/" target="_blank">Assignment 8</a></li>
-      </ul>
+    </div>
+    <div class="projects">
+    <h1>Projects</h1>
+        <a href="https://magenta-khapse-0219b1.netlify.app/" target="_blank">
+          
+          <p>Assignment 1</p>
+        </a>
+        <a href="https://thunderous-panda-a2caa4.netlify.app/" target="_blank">
+  
+          <p>Assignment 2</p>
+        </a>
+        <a href="https://curious-duckanoo-0d11b6.netlify.app/" target="_blank">
+          
+          <p>Assignment 3</p>
+        </a>
+        <a href="https://jocular-toffee-e8653c.netlify.app/" target="_blank">
+          
+          <p >Assignment 4</p>
+        </a>
+        <a href="https://stellular-tiramisu-7f5f2a.netlify.app/" target="_blank">
+          
+          <p>Assignment 5</p>
+        </a>
+        <a href="https://visionary-jalebi-6d5cb6.netlify.app/" target="_blank">
+          
+          <p>Assignment 6</p>
+        </a>
+        <a href="https://sparkly-cajeta-24613d.netlify.app/" target="_blank">
+          
+          <p>Assignment 7</p>
+        </a>
+        <a href="https://lucky-monstera-c57f47.netlify.app/" target="_blank">
+          
+          <p >Assignment 8</p>
+        </a>
     </div>
 </body>
 </html>
